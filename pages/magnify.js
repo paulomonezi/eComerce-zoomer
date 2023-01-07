@@ -10,7 +10,7 @@ const MAGNIFY_SIZE = 200
 const MAGNIFY_SIZE_HALF = MAGNIFY_SIZE / 2
 
 
-export default function Home() {
+export default function Magnify() {
   const [magnifyStyle, setMagnifyStyle] = useState({ backgroundImage: `url(${img.url})` })
 
   const handleMouseMove = (e) => {
